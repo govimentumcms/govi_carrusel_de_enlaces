@@ -1,0 +1,14 @@
+<?php
+
+function govi_carrusel_de_enlaces_install() {
+
+    db_update('block')
+        ->fields(array(
+            'region' => 'posicion_e_3',
+            'status' => 1,
+            'theme' => 'govi_tema'
+        ))
+        ->condition('module', 'views')
+        ->condition('delta', 'carrusel_de_enlaces-block')
+        ->execute();
+}
