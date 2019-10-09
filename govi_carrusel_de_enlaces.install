@@ -2,12 +2,25 @@
 
 function govi_carrusel_de_enlaces_install() {
 
+  drupal_set_installed_schema_version('govi_carrusel_de_enlaces', '7000');
+}
+
+function govi_carrusel_de_enlaces_update_7001() {
+
     db_update('block')
         ->fields(array(
             'region' => 'posicion_e_3',
             'status' => 1,
             'theme' => 'govi_tema'
         ))
+        ->condition('module', 'views')
+        ->condition('delta', 'carrusel_de_enlaces-block')
+        ->execute();
+}
+
+function govi_carrusel_de_enlaces_uninstall() {
+
+    db_delete('block')
         ->condition('module', 'views')
         ->condition('delta', 'carrusel_de_enlaces-block')
         ->execute();
