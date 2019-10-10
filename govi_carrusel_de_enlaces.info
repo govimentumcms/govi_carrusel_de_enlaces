@@ -17,6 +17,7 @@ features[content][] = entidad-control-personeria
 features[content][] = entidad-control-procuraduria
 features[content][] = entidad-control-veeduria
 features[content][] = plataforma-bogota-te-escucha
+features[content][] = plataforma_ideca
 features[ctools][] = views:views_default:3.0
 features[features_api][] = api:2
 features[field_base][] = field_entcontrol_logo_alterno
