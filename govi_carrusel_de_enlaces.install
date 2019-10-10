@@ -6,7 +6,9 @@ function govi_carrusel_de_enlaces_install() {
             array('node_export_features',
                   'node_export_features_ui'));
 
-    drupal_set_installed_schema_version('govi_carrusel_de_enlaces', '7000');
+    $profile = variable_get('install_profile');
+    if ($profile === 'govi')
+            drupal_set_installed_schema_version('govi_carrusel_de_enlaces', '7000');
 }
 
 function govi_carrusel_de_enlaces_update_7001() {
