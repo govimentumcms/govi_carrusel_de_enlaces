@@ -10,6 +10,7 @@ dependencies[] = image
 dependencies[] = jcarousel
 dependencies[] = link
 dependencies[] = views
+stylesheets[all][] = assets/css/govi_carrusel_de_enlaces.css
 features[content][] = entidad-control-contbogota
 features[content][] = entidad-control-contraloria
 features[content][] = entidad-control-personeria

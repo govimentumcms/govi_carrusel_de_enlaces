@@ -34,8 +34,7 @@ function govi_carrusel_de_enlaces_views_default_views() {
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'jcarousel';
   $handler->display->display_options['style_options']['wrap'] = 'circular';
-  $handler->display->display_options['style_options']['visible'] = '2';
-  $handler->display->display_options['style_options']['responsive'] = 1;
+  $handler->display->display_options['style_options']['visible'] = '3';
   $handler->display->display_options['style_options']['auto'] = '3';
   $handler->display->display_options['style_options']['autoPause'] = 1;
   $handler->display->display_options['style_options']['animation'] = 'slow';

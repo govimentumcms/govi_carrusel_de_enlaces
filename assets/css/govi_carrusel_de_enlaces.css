@@ -1,0 +1,75 @@
+.view-carrusel-de-enlaces .jcarousel-skin-default .jcarousel-container-horizontal{
+    width: 100%;
+    height: 102px;
+    padding: 20px 0;
+    margin: 0;
+}
+.view-carrusel-de-enlaces .jcarousel-skin-default .jcarousel-clip-horizontal {
+    width: 100%;
+    overflow: hidden;
+}
+.view-carrusel-de-enlaces .jcarousel-skin-default .jcarousel-item {
+    height: auto;
+    background: transparent;
+    border: none;
+}
+.view-carrusel-de-enlaces a.jcarousel-prev.jcarousel-prev-horizontal{
+    background-image: url(../img/navegacion_pre.png);
+}
+.view-carrusel-de-enlaces a.jcarousel-next.jcarousel-next-horizontal{
+    background-image: url(../img/navegacion_pos.png);
+}
+.view-carrusel-de-enlaces .jcarousel-skin-default .jcarousel-next,
+.view-carrusel-de-enlaces .jcarousel-skin-default .jcarousel-prev {
+    background-color: rgba(0,159,227,1);
+    border: 2px solid #fff;
+    border-radius: 17px;
+    height: 29px;
+    width: 29px;
+    overflow: hidden;
+    text-indent: 100%;
+    opacity: 0;
+    filter: alpha(opacity= 0);
+    -webkit-transition: all 0s ease 0s;
+    -moz-transition: all 0s ease 0s;
+    -o-transition: all 0s ease 0s;
+    transition: all 0s ease 0s;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+}
+
+.view-carrusel-de-enlaces:hover .jcarousel-skin-default .jcarousel-next,
+.view-carrusel-de-enlaces:hover .jcarousel-skin-default .jcarousel-prev {
+    opacity: 1;
+    filter: alpha(opacity=1);
+    -webkit-transition: all 0s ease 0s;
+    -moz-transition: all 0s ease 0s;
+    -o-transition: all 0s ease 0s;
+    transition: all 0s ease 0s;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    opacity: 1;
+}
+
+.view-carrusel-de-enlaces h2 {
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 1em auto;
+    border: none;
+    font-size: 2em;
+    color: #000;
+    width: 100%;
+    display: block;
+}
+.view-carrusel-de-enlaces .logo_entidad {
+    padding: 0;
+    text-align: center !important;
+}
+.view-carrusel-de-enlaces .logo_alterno{
+    padding: 0;
+}
