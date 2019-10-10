@@ -2,7 +2,11 @@
 
 function govi_carrusel_de_enlaces_install() {
 
-  drupal_set_installed_schema_version('govi_carrusel_de_enlaces', '7000');
+    module_enable(
+            array('node_export_features',
+                  'node_export_features_ui'));
+
+    drupal_set_installed_schema_version('govi_carrusel_de_enlaces', '7000');
 }
 
 function govi_carrusel_de_enlaces_update_7001() {
